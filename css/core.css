@@ -1,0 +1,61 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	font: 100%/1.5 Helvetica, Arial, sans-serif;
+	color: #444;
+	background: white;
+}
+#container {
+	height: 100%;
+}
+#pager {
+	height: 100%;
+	background: none;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: justify;
+}
+/* ipad portrait */
+@media screen and (width: 768px) and (max-height: 1004px) {
+    #container {
+        height: 100%;
+        padding: 0;
+    }
+
+    #pager {
+        height: 100%;
+        width: 100%;
+        -webkit-border-radius: 0;
+    }
+}
+/* probably ipad landscape */
+@media only screen and (width: 1024px) and (max-height: 748px) {
+    #container {
+        height: 100%;
+        padding: 0;
+    }
+
+    #pager {
+        height: 100%;
+        width: 100%;
+        -webkit-border-radius: 0;
+    }
+}
+
+.scroller {
+	-webkit-box-flex: 1;
+	display: show;
+	overflow: hidden;
+	padding: 1em;
+}
+
+.touchScroll {
+	padding: 0;
+}
+
+.touchScrollInner {
+	padding: 0.5em;
+}

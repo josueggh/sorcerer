@@ -1,0 +1,41 @@
+body{
+	background: black;
+	font-size: 15px;
+	color: white;
+}
+H1,H2{
+ font-family: 'Architects Daughter', arial, serif;
+}
+H1{font-size:110px;margin-bottom: 4px;padding: 0px;height:110px;}
+H1.maintitle{
+	background: url("head.png") left top no-repeat;
+	height: 727px;
+	display: block;
+	width: 754px;
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+.ph-full{
+	text-align: justify;
+}
+H2{font-size:47px;color:#555}
+.white{color:white;}
+.black{color:black;}
+h2{margin: 0px;	}
+.content{
+	padding-left: 20px;
+}
+.spacer{
+	margin-top: 40px;
+}
+.ph-left{
+	width: 400px;
+	text-align: justify;
+}
+
+.ph-right{
+	width: 400px;
+	text-align: justify;
+	margin-left: 300px;
+}
